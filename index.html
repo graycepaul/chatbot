@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>ChatBot</title>
+  </head>
+  <body>
+    <!-- toggle -->
+    <button class="chatbot-trigger">
+      <i class="fa-solid fa-chevron-down icon" style="color: #ffffff"></i>
+    </button>
+    <!-- chat frame -->
+    <main class="chatbot">
+      <section class="profile">
+        <i class="fa-solid fa-chevron-left" style="color: #ffffff"></i>
+        <img src="Ellipse 6.png" alt="profile picture" /><i
+          class="fa-solid fa-circle fa-2xs"
+          style="color: #95cf48"
+        ></i>
+        <div class="header-text">
+          <h2>Hannah</h2>
+          <p>Active 1h ago</p>
+        </div>
+      </section>
+      <section>
+        <div class="msg-history">
+          <div class="align-dp">
+            <img src="Avatars.png" alt="dp" />
+            <div class="chat incoming-msg">
+              <h4>👋 Hi there! How can I help?</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="chat-textarea">
+        <textarea id="user-input" placeholder="Type a reply..."></textarea>
+        <div class="textarea-icons">
+          <img id="gif" src="gif.png" alt="GIF icon" />
+          <i
+            id="emojis"
+            class="fa-regular fa-face-smile"
+            style="color: #bebec0"
+          ></i
+          ><i
+            id="link"
+            class="fa-solid fa-paperclip"
+            style="color: #bebec0"
+          ></i>
+          <span id="send-btn">
+            <i class="fa-regular fa-paper-plane" style="color: #bebec0"></i>
+          </span>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
