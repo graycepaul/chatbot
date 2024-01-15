@@ -23,9 +23,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
-    bottom: 10%;
-    right: 40%;
+    position: absolute;
+    top: 102%;
+    right: 25%;
     width: 60px;
     padding: 25px;
     border: none;
@@ -34,6 +34,7 @@ body {
     background: var(--color1); 
 }
 .chatbot {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 423px;
